@@ -3,10 +3,10 @@
 
 ### Команда
 
-* [Даниил Белокопытов](https://github.com/ambushidozho)
-* [Олег Перелыгин](https://github.com/osperelygin)
-* [Дмитрий Евсюков](https://github.com/Dmitry-Evsyukov)
-* [Анна Гришина](https://github.com/Kayetana)
+* [Даниил Белокопытов](https://github.com/ambushidozho): Frontend
+* [Олег Перелыгин](https://github.com/osperelygin) : Backend
+* [Дмитрий Евсюков](https://github.com/Dmitry-Evsyukov) : Backend
+* [Анна Гришина](https://github.com/Kayetana) : Backend
 
 ### Менторы
 
