@@ -3,7 +3,7 @@
 
 ### Команда
 
-* [Даниил Белокопытов](https://github.com/ambushidozho): Frontend
+* [Даниил Белокопытов](https://github.com/ambushidozho) : Frontend
 * [Олег Перелыгин](https://github.com/osperelygin) : Backend
 * [Дмитрий Евсюков](https://github.com/Dmitry-Evsyukov) : Backend
 * [Анна Гришина](https://github.com/Kayetana) : Backend
