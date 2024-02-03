@@ -173,6 +173,9 @@ export class PlayerComponent extends IComponent {
 			document.body.style.overflow === 'hidden' ? document.body.style.overflow = 'visible' : document.body.style.overflow = 'hidden';
 		});
 		EventDispatcher.subscribe('close-text', () => {
+			if(this.currentSong.Lyrics === '') {
+				return;
+			}
 			const karaoke = document.querySelector('.karaoke')! as HTMLElement;
 			karaoke.style.display = 'none';
 			document.body.style.overflow = 'visible';
