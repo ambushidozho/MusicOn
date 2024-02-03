@@ -39,7 +39,7 @@ jobs:
           sudo chmod +x /usr/local/bin/mc
           mc --version
       - name: Create an Alias for the S3-Compatible Service
-        run: mc alias set musicon http://37.230.116.98:9000/ ${{ secrets.MINIO_ACCESS_KEY }} ${{ secrets.MINIO_SECRET_KEY }}
+        run: mc alias set musicon https://api.s3.musicon.space/ ${{ secrets.MINIO_ACCESS_KEY }} ${{ secrets.MINIO_SECRET_KEY }}
       - name: Download artifact
         uses: actions/download-artifact@v3
         with:
