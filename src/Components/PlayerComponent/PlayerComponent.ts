@@ -175,7 +175,7 @@ export class PlayerComponent extends IComponent {
 		EventDispatcher.subscribe('close-text', () => {
 			if(this.currentSong.Lyrics === '') {
 				return;
-			}
+			} 
 			const karaoke = document.querySelector('.karaoke')! as HTMLElement;
 			karaoke.style.display = 'none';
 			document.body.style.overflow = 'visible';
