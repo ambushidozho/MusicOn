@@ -17,6 +17,7 @@ export class PlayerComponent extends IComponent {
 	private intervalId: number | undefined;
 	private currentTime: number = 0;
 	private parsedLyrics: {time: number, line: string}[] = [];
+
 	/**
 	 * Constructs a new instance of the class.
 	 *

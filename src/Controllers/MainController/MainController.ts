@@ -106,6 +106,7 @@ class MainController extends IController<MainView, {ContentModel: ContentModel, 
      * @return {void} 
      */
     public updateChart(): void {
+        this.view.renderFeed();
         this.model.ContentModel.requestChart(this.view.fillContent.bind(this.view));
     }
 
@@ -115,6 +116,7 @@ class MainController extends IController<MainView, {ContentModel: ContentModel, 
      * @return {void} 
      */
     public updateNew(): void {
+        this.view.renderFeed();
         this.model.ContentModel.requestNew(this.view.fillContent.bind(this.view));
     }
 
@@ -124,6 +126,7 @@ class MainController extends IController<MainView, {ContentModel: ContentModel, 
      * @return {void} 
      */
     public updatePlaylists(): void {
+        this.view.renderFeed();
         this.model.ContentModel.requestPlaylists(this.view.fillContent.bind(this.view));
     }
     /**
