@@ -8,12 +8,6 @@
 * [Дмитрий Евсюков](https://github.com/Dmitry-Evsyukov) : Backend
 * [Анна Гришина](https://github.com/Kayetana) : Backend
 
-### Менторы
-
-* [Сергей Красавцев](https://github.com/Krasava872) — Frontend
-* [Иван Чернов](https://github.com/Blackbackofficial) — Backend
-* Егор Аистов — UX
-
 ### Ссылки
 * [Backend repository](https://github.com/go-park-mail-ru/2023_2_AdDo)
 
